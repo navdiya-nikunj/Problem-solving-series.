@@ -1,4 +1,4 @@
-Problem 5) Beautiful_Beach
+/*Problem 5) Beautiful_Beach
 
 Task:-
 You are on a large ship and you put down anchor near a beautiful beach. There is a small boat ferrying passengers back and forth, and you get in line for it.
@@ -20,7 +20,7 @@ Sample Output :-
 Explanation :-
 If you are the first you will have to wait till boat reach to the beach.
 
-Solution In C language:-
+Solution In C language:-*/
 
 #include <stdio.h>
 
@@ -37,12 +37,3 @@ printf ("%d",time);
     return 0;
 }
 
-Solution In Python:-
-
-pos=int(input())
-i=1
-while pos>=20:
-    pos-=20
-    i+=1
-time=10*(2*i-1)
-print(time)
