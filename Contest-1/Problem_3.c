@@ -1,4 +1,4 @@
-Problem 3) That's Odd
+/*Problem 3) That's Odd
 
 Task:-
 You want to take a list of the numbers and find the sum of all of the even numbers in the list.Ignore any odd numbers.
@@ -24,7 +24,7 @@ Sample Output :-
 Explanation :-
 4+8+6=18
 
-Solution In C language:-
+Solution In C language:-*/
 
 #include <stdio.h>
 int main()
@@ -44,12 +44,3 @@ int main()
     printf("%d",t);
 }
 
-Solution In Python:-
-
-n=int(input())
-t=0
-for i in range(n):
-    b=int(input())
-    if b%2==0:
-        t+=b
-print(t)
