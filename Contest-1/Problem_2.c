@@ -1,4 +1,4 @@
-Problem 2) In_My-Benifit
+/*Problem 2) In_My-Benifit
 Task:-
 You are in a store in India! The prices are listed in US Dollars and Rupees. 
 You have both, but you want to make sure you pay the lower price! Do you pay in Dollars or Rupees? The exchange rate is 2 cents for every Rupees.
@@ -21,7 +21,7 @@ Explanation :-
 You should use rupees to buy 4000 rupees is equal to $80
 
 
-Solution in C language:-
+Solution in C language:-*/
 
 #include <stdio.h>
 
@@ -35,12 +35,3 @@ else printf ("Dollars");
 }
 
 
-Solution in Python:-
-
-p=int (input())
-d= int (input())
-d2p = d/0.02
-if p<d2p :
-     print ("Rupees")
-else :
-     print ("Dollars")
